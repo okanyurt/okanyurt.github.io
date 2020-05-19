@@ -361,21 +361,21 @@ label {
 }
 
 .slider-content h1 {
-  color:#fff;
+  color:darkblue;
   font-size: 90px;
   font-weight: 700;
   margin-bottom: 30px;
   margin-top: 90px;
 }
 .slider-content2 h1 {
-  color: #fff;
+  color: darkblue;
   font-size: 90px;
   font-weight: 700;
   margin-bottom: 30px;
   margin-top: 90px;
 }
 .slider-content2 p {
-  color: #fff;
+  color: darkblue;
   font-weight: 700;
   font-size: 25px;
   margin-bottom: 30px;
@@ -383,7 +383,7 @@ label {
   font-style: italic;
 }
 .slider-content p {
-  color: #fff;
+  color: darkblue;
   font-weight: 700;
   font-size: 25px;
   margin-bottom: 30px;
