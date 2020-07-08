@@ -64,12 +64,12 @@ a:hover,
 
 .portfolio-cat a:hover,
 .footer -menu li a:hover {
-	color: aqua;
+	color: #04274B;
 	text-decoration: none;
 }
 a,
 button {
-	color: aqua;
+	color: #04274B;
 	outline: medium none;
 }
 input:focus,textarea:focus,:focus{outline: 0}
@@ -88,7 +88,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-weight: normal;
 	color: #333333;
 	margin-top: 0px;
@@ -212,7 +212,7 @@ label {
 
 /* scrollUp */
 #scrollUp {
-	background: aqua;
+	background: #045FCB;
 	height: 35px;
 	width: 35px;
 	right: 50px;
@@ -255,6 +255,10 @@ label {
   margin-top: 34px;
   margin-left: 0;
 }
+.logo-son {
+  width: 48px;
+  height:48px;
+}
 
 .main-menu-area {
 	border-bottom: 1px solid  #EEEEEE;
@@ -284,7 +288,7 @@ label {
    
 }
 
-.main-menu ul li:hover > a {color:aqua; font-weight:700;}
+.main-menu ul li:hover > a {color:#04274B; font-weight:700;}
 
 .main-menu ul li ul.submenu {
     background: #000;
@@ -323,7 +327,7 @@ label {
 }
 
 .main-menu ul li ul.submenu li:hover > a {
-    color: aqua;
+    color: #04274B;
 }
 
 .main-menu ul li ul.submenu li ul.submenu {
@@ -342,49 +346,43 @@ label {
 
 .single-slider {
   
-  background-position: center bottom;
+
   background-size: cover;
-  height: 100vh;
+  
   /*width:100%;*/
   /*align-items: center center;*/
-  position: fixed;
-  overflow: auto;
-  top: 0;
-  display: block;
+  
   background-repeat: no-repeat;
   width: 100%;
     background-size: calc(100% + 50px);
     -webkit-background-size: calc(100% + 50px);
     -moz-background-size: calc(100% + 50px);
     -ms-background-size: calc(100% + 50px);
-    -o-background-size: calc(100% + 50px)
+    -o-background-size: calc(100% + 50px);
+    background-position: center bottom;
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+   top: 0;
+   display: block;
+}
+.supporticon {
+  width: 130px;
 }
 
 .slider-content h1 {
-  color:darkblue;
+  color:#ffffff;
   font-size: 90px;
   font-weight: 700;
-  margin-bottom: 30px;
-  margin-top: 90px;
+  margin-bottom: 10px;
+  margin-top: 140px;
+  
+  
 }
-.slider-content2 h1 {
-  color: darkblue;
-  font-size: 90px;
-  font-weight: 700;
-  margin-bottom: 30px;
-  margin-top: 90px;
-}
-.slider-content2 p {
-  color: darkblue;
-  font-weight: 700;
-  font-size: 25px;
-  margin-bottom: 30px;
-  line-height: 30px;
-  font-style: italic;
-}
+
 .slider-content p {
-  color: darkblue;
-  font-weight: 700;
+  color: #ffffff;
+  font-weight: 500;
   font-size: 25px;
   margin-bottom: 30px;
   line-height: 30px;
@@ -392,7 +390,7 @@ label {
 }
 .slider-content > a, .slider-content2 > a {
   
- background-color: aqua;
+ background-color: #04274B;
 color: #fff;
 display: inline-block;
 font-family: 'PT Sans', sans-serif;
@@ -430,7 +428,7 @@ vertical-align: middle;
 
 
 .slider-active .slick-arrow:hover {
-    color: aqua;
+    color: #04274B;
 }
 
 .slider-active .slick-dots {
@@ -445,7 +443,7 @@ vertical-align: middle;
 .slider-active .slick-dots li {
     display: inline-block;
     margin-right: 10px;
-    color:aqua;
+    color:#04274B;
 }
 
 .slider-active .slick-dots li:last-child {
@@ -464,12 +462,12 @@ vertical-align: middle;
 
 .slider-active .slick-dots li.slick-active button {
     width: 40px;
-    /*color:aqua;*/
-    background-color: aqua;
+    /*color:#04274B;*/
+    background-color: #04274B;
 }
 
 .slider-active-2 .slick-dots li.slick-active button {
-    border: 1px solid aqua;
+    border: 1px solid #04274B;
 }
 
 .slider-active .slick-arrow {
@@ -510,7 +508,7 @@ vertical-align: middle;
   content: "";
   width: 0;
   height: 2px;
-  background: aqua;
+  background: #04274B;
   right: -40px;
   top: 13px;
   transition: .3s;
@@ -526,7 +524,7 @@ vertical-align: middle;
     content: "";
     width: 0;
     height: 2px;
-    background: aqua;
+    background: #04274B;
     left: -40px;
     top: 13px;
     transition: .3s;
@@ -577,7 +575,7 @@ vertical-align: middle;
   line-height: 80px;
 }
 .about-me-content h1 span{
-  color: aqua;
+  color: #045FCB;
 
 }
 .about-me-content h4 {
@@ -599,7 +597,7 @@ vertical-align: middle;
 
 .about-me-content p span {
   margin:25px 0;
-  color: aqua;
+  color: #045FCB;
   font-weight:700;
 }
 
@@ -637,7 +635,7 @@ vertical-align: middle;
   line-height: 80px;
 }
 .my-resume-content h1 span{
-  color: aqua;
+  color: #04274B;
 
 }
 .sidebar {
@@ -648,7 +646,7 @@ vertical-align: middle;
        padding: 20px 20px 0 0;
 }
 .autor img {
-    border: 8px solid  aqua;
+    border: 8px solid  #04274B;
     max-width: 100%;
     border-radius: 50%;
    
@@ -674,14 +672,16 @@ vertical-align: middle;
 }
  
 .my-resume-tabs li a.active{
-  background: aqua;
-  color: #222;
+  background: #04274B;
+  color: #ffffff;
   border-color: beige;
 }
 
 
 .my-resume-tabs li a:hover{
-  background: aqua;
+  color: #ffffff;
+  background: #04274B;
+ 
    
 }
 .content {
@@ -701,7 +701,7 @@ vertical-align: middle;
   font-weight: 700;
   font-family: pt sans;
   font-style:italic;
-  color: aqua;
+  color: #045FCB
 }
 .content p {
   margin: 25px 0 0 0;
@@ -747,7 +747,7 @@ vertical-align: middle;
 }
 .progress-bar {
   position: relative;
-  background-color: aqua;
+  background-color: #04274B;
     position: relative;
     z-index: 176;
     border-radius: 10px;
@@ -783,7 +783,7 @@ vertical-align: middle;
     line-height: 80px;
 }
 .latest-work-content h1 span{
-  color: aqua;
+  color: #04274B;
 
 }
 .project-details-title {
@@ -851,7 +851,7 @@ vertical-align: middle;
   }
 
 .portfolio-text span {
-  color: aqua;
+  color: #04274B;
   font-size: 18px;
   font-weight: 400;
   font-family:pt sans;
@@ -896,7 +896,7 @@ vertical-align: middle;
   text-transform: capitalize;
   margin-bottom: 0;
   line-height: 22px;
-  color:aqua;
+  color:#04274B;
 }
 .testimonial-text span {
   margin: 20px 0 0 ;
@@ -931,13 +931,13 @@ vertical-align: middle;
 
 }
 .testimonial-active .owl-dot.active {
-  background: aqua;
+  background: #04274B;
   position: relative;
 
 }
 .testimonial2 .testimonial-active .owl-dot{background:#000;}
 .testimonial2 .testimonial-active .owl-dot.active {
-  background: aqua;
+  background: #04274B;
 }
 .testimonial3 .testimonial-active .owl-dot{background:#000;}
 .testimonial3 .testimonial-active .owl-dot.active {
@@ -968,7 +968,7 @@ vertical-align: middle;
 
 
 .latest-news h1 span {
-    color: aqua;
+    color: #04274B;
 }
 
 .single-latest-news.feature-white .news-img img {
@@ -997,7 +997,7 @@ vertical-align: middle;
   font-weight: 700;
   font-family: pt sans;
   font-style: italic;
-  color: aqua;
+  color: #04274B;
   
  }
 
@@ -1034,7 +1034,7 @@ vertical-align: middle;
   line-height: 80px;
 }
 .contact-content h1 span{
-  color: aqua;
+  color: #04274B;
 
 }
 
@@ -1063,7 +1063,7 @@ vertical-align: middle;
 .newsletter-form__submit {
     color: #fff;
     border-radius: 50px;
-    background-color: aqua;
+    background-color: #04274B;
     line-height: 32px;
     border: none;
     padding: 10px 50px;
@@ -1117,7 +1117,7 @@ footer{
     margin-right: 45px;
 }
 .social-icon > a:hover {
-    color: aqua;
+    color: #04274B;
 }
 
 .copyright {
@@ -1132,7 +1132,7 @@ footer{
   font-family: pt sans, sans-serif;
 }
 .copyright p span{
-  color: aqua !important;
+  color: #045FCB !important;
 
 }
   /*
@@ -1162,7 +1162,7 @@ footer{
   font-size:45px;
   font-family:'PT Sans', sans-serif;
   font-weight:400;
-  color:aqua;
+  color:#04274B;
  }
 .portfolio-thumb img {
     width: 100%;
@@ -1215,7 +1215,7 @@ footer{
 
   }
     .post-navigation .grid i:hover {
-    color:aqua;
+    color:#04274B;
 
   }
   .post-navigation .nav-links .nav-title h2 {
@@ -1258,7 +1258,7 @@ footer{
     font-size: 25px;
     font-family: 'PT Sans';
     font-weight: 400;
-    color: aqua;
+    color: #04274B;
 }
 .single-blog-thumb img {
     width: 100%;
@@ -1279,7 +1279,7 @@ footer{
   font-weight: 700;
   font-family: pt sans;
   font-style: italic;
-  color: aqua;
+  color: #04274B;
 
  }
 .single-blog-content p,.single-blog-content-detail p{
@@ -1295,7 +1295,7 @@ footer{
   margin-top: 30px;
   padding: 14px;
   position: relative;
-  background-color: aqua;
+  background-color: #04274B;
  
 
 }
@@ -1322,7 +1322,7 @@ footer{
 .blog-post-tag > a:hover {
    
   color: #fff;
-  background-color: aqua;
+  background-color: #04274B;
 }
 
 .blog-post-tag span {
@@ -1356,14 +1356,14 @@ footer{
 .author-text > h4 {
   font-weight: 400;
   font-size: 16px;
-  color: aqua;
+  color: #04274B;
   text-transform: capitalize;
   margin-bottom:0;
 }
 .author-text > h4 span {
   font-weight: 700;
   font-size: 16px;
-  color: aqua;
+  color: #04274B;
   text-transform: capitalize;
   margin-bottom:0;
 
@@ -1411,7 +1411,7 @@ footer{
   margin-bottom: 3px;
   font-weight: 600;
   font-size: 16px;
-  color: aqua;
+  color: #04274B;
   text-transform: capitalize;
   
 }
@@ -1515,7 +1515,7 @@ footer{
   padding: 15px 33px;
   color: #fff;
   transition: .3s;
-  background: aqua;
+  background: #04274B;
   transition:.3s;
   border-radius:50px;
 }
