@@ -1,4 +1,4 @@
-# Hello, ben Okan - Me on LinkedIn 👋
+# Hello, Okan - Me on LinkedIn 👋
 
 ## Senior Software Engineer
 
